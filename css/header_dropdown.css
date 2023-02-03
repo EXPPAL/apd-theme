@@ -1,0 +1,204 @@
+.dropdown-box.first {
+  position: absolute;
+  z-index: 50;
+  top: 16px;
+  left: -9px;
+  padding: 0 !important;
+  margin: 0;
+  display: none;
+  transition: .2s;
+}
+
+.mainheader .dropdown-box.first {
+  top: 6px;
+  left: -10px;
+}
+
+.mainheader .menu .dropdown-box.first {
+  top: 16px;
+  left: -9px;
+}
+
+.mainheader .dropdown-box.first.open {
+  display: block;
+}
+
+.mainheader .dropdown-box.second {
+  top: 6px;
+  left: 113px;
+}
+
+.mainheader .menu .dropdown-box.second {
+  top: 16px;
+  left: 117px;
+}
+
+.mainheader .dropdown-box.second.open {
+  display: block;
+}
+
+.dropdown-box.second {
+  position: absolute;
+  z-index: 50;
+  top: 16px;
+  left: 117px;
+  padding: 0 !important;
+  margin: 0;
+  display: none;
+  transition: .2s;
+}
+
+.dropdown-box .wrapper {
+  background-color: #ffe157;
+  width: 150px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px 0px #515151;
+  color: #111;
+  text-align: center;
+  padding: 4px;
+  padding-bottom: 2px;
+}
+
+.mainheader .dropdown-box .wrapper {
+  background-color: #ffe157;
+  width: 150px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px 0px #515151;
+  color: #111;
+  text-align: center;
+  padding: 4px;
+  padding-bottom: 2px;
+  display: block;
+}
+
+.dropdown-box .title {
+  color: #111111;
+}
+
+.dropdown-box .percent_1 {
+  font-family: Arial Black;
+  font-size: 28px;
+  color: #111;
+  line-height: 1;
+}
+
+.dropdown-box .percent_1::after {
+  content: "%";
+  font-family: Arial Black;
+  font-size: 28px;
+  color: #111;
+  line-height: 1;
+}
+
+.dropdown-box .percent_2 {
+  font-family: Arial Black;
+  font-size: 28px;
+  color: #111;
+  line-height: 1.2;
+  margin-top: -8px;
+}
+
+.dropdown-box img {
+  width: auto;
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.dropdown-box .price {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Arial Black;
+}
+
+.dropdown-box .price::before {
+  content: "$";
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Arial Black;
+}
+
+.dropdown-box .price::after {
+  content: "!";
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Arial Black;
+}
+
+.dropdown-box .product-details {
+  border-left: 1px solid #111;
+  display: inline-block;
+  text-align: left;
+  font-size: 12px;
+  margin: auto;
+  padding-left: 4px;
+}
+
+.dropdown-box .company {
+  text-align: left;
+}
+
+.dropdown-box .product-title {
+  text-align: left;
+}
+
+.dropdown-box .counter-holer {
+}
+
+/* menu-deals */
+.menu-deals {
+}
+
+.menu-deals > .ubermenu-submenu {
+  width: auto !important;
+}
+
+.menu-deals > .ubermenu-submenu > ul {
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+
+.menu-deals > .ubermenu-submenu > ul > li {
+  max-width: 300px;
+  flex-basis: 100%;
+}
+
+/*.menu-deals > .ubermenu-submenu > ul a {*/
+/*  padding-left: 5px !important;*/
+/*  padding-right: 5px !important;*/
+/*}*/
+.menu-deals__item li {
+  width: 100% !important;
+}
+
+.menu-deals__item .widget.CountDownTimer {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.menu-deals__item .carbonite-responsive-dashboard {
+  background: none;
+  border: none;
+}
+
+.menu-deals__item .carbonite-responsive-dash_title {
+  display: none !important;
+}
+
+.menu-deals__item .carbonite-responsive-dash {
+  position: relative;
+}
+
+.menu-deals__item .carbonite-responsive-dash:not(:last-child)::after {
+  content: ':';
+  position: absolute;
+  top: 20%;
+  right: -3px;
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .menu-deals > .ubermenu-submenu > ul {
+    flex-wrap: wrap;
+  }
+}

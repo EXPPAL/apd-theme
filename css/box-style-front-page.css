@@ -1,0 +1,507 @@
+.front-page_box-style main {
+    min-height: 1390px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.deal-box-holder {
+    width: 100%;
+    height: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal-box-holder .box {
+    width: 650px;
+    height: 830px;
+    border: 16px solid #ffe157;
+    background-image: url('../images/front-page-box-style/bg-box.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color:#111;
+}
+
+.deal-box-holder .box .overlay {
+    position: relative;
+    top: -20px;
+    width: 620px;
+    height: 800px;
+    background-size: 620px 800px;
+}
+
+/* .deal-box-holder .box:hover .overlay {
+    background: radial-gradient(#ffffff00, rgba(255, 225, 87, 0.5));
+} */
+
+.deal-box-holder .box .siren-icon {
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/front-page-box-style/box-siren.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    left: 234px;
+    top: -95px;
+    border-radius: 50%;
+}
+
+.deal-box-holder .box .box-title {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 600;
+    letter-spacing: -4.2px;
+    background: radial-gradient(#ffffff, rgba(255, 255, 255, 0));
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.deal-box-holder .box .box-title strong {
+    font-size: 76px;
+    font-weight: 600;
+    position: relative;
+    top: 8px;
+}
+
+.deal-box-holder .box .product-details {
+    margin-left: 210px;
+    border-left: 1px solid #111;
+    padding-left: 0.5em;
+}
+
+.deal-box-holder .box .company-name {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+}
+
+.deal-box-holder .box .product-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    display: block;
+}
+
+.box .c-thermometr {
+    position: absolute;
+    background-image: url('../images/front-page-box-style/bg-thermometr.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 110px;
+    height: 560px;
+    right: -63px;
+    bottom: 40px;
+}
+
+.box .c-thermometr .counter {
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    width: 26px;
+    left: calc(50% - 13px);
+    text-align: center;
+}
+
+.box .c-thermometr .pointer {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border: 4px solid #111;
+    border-radius: 50%;
+    top: 500px;
+}
+.box .c-thermometr .pointer:after {
+    display: block;
+    content: '';
+    border-left: 20px solid #111;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    position: relative;
+    right: -28px;
+    top: 8px;
+}
+
+.box .prices {
+    text-align: center;
+    position: relative;
+}
+
+.box .deal-price {
+    font-size: 50px;
+    font-weight: 800;
+    color: #3a3936;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box .old-price {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-size: 26px;
+    color: #3a3936;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box .deal-price:not(:empty):before,
+.box .old-price:not(:empty):before {
+    content:'$';
+}
+
+.box .deal-price:not(:empty):after {
+    content: '!';
+}
+
+.box .img-holder {
+    height: 450px;
+    position: relative;
+}
+
+.box.empty .img-holder {
+    background-image: url('../images/front-page-box-style/box-default.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80%;
+    min-height: 280px;
+    background-size: contain;
+}
+
+@media (min-width: 768px) {
+    .box.empty .img-holder {
+        margin: 0 60px;
+    }
+}
+
+.box .img-holder img {
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.box .img-holder .sticker {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    display: block;
+    background-image: url('../images/front-page-box-style/sticker.png');
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 20%;
+    font-size: 46px;
+    line-height: 1em;
+    font-family: Impact;
+    text-align: center;
+    padding-top: 0.6em;
+    transform: rotate(-16deg);
+}
+
+.box.empty .img-holder .sticker {
+    display: none;
+}
+
+.box .countdown-holder {
+    position: absolute;
+    bottom: 14px;
+    left: 98px;
+}
+
+.shop-widget {
+    height: 245px;
+}
+
+.shop-widget a {
+    display: flex;
+    width: 1384px;
+    height: 245px;
+    margin: 40px auto;
+    padding: 32px;
+    color: #111;
+    background-image: url('../images/front-page-box-style/bg_widget.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.shop-widget .left-side {
+    background-image: url('../images/front-page-box-style/siren_blue.png');
+    background-repeat: no-repeat;
+    width: 486px;
+    background-position: 20px;
+    position: relative;
+}
+
+.shop-widget .left-side::after {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 140px;
+    background-color: #111;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.shop-widget .left-side span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #111;
+    top: 50px;
+    left: 160px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.shop-widget .right-side {
+    background-image: url('../images/front-page-box-style/cart_widget.png');
+    background-repeat: no-repeat;
+    background-position: 20px;
+    position: relative;
+    color: #111;
+    flex-grow: 1;
+}
+
+.shop-widget .right-side .text-holder {
+    position: absolute;
+    top: 62px;
+    left: 130px;
+    font-size: 26px;
+}
+
+.shop-widget .right-side .text-holder span {
+    width: 100%;
+    display: inline-block;
+}
+
+.shop-widget .right-side .text-holder span:first-of-type {
+    font-weight: 600;
+}
+
+.shop-widget .right-side .link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.shop-widget .right-side .link:before {
+    content: '>';
+}
+
+.shop-widget .overlay {
+    width: 1320px;
+    height: 186px;
+    background-size: 1320px 245px;
+    display: flex;
+    position: relative;
+    top: -4px;
+}
+.shop-widget:hover .overlay {
+    background: radial-gradient(#ffffff00, rgba(35, 117, 219, 0.5));
+}
+
+@media (max-width: 1350px) {
+    .deal-box-holder {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .deal-box-holder .box {
+        margin: 0 30px 100px;
+    }
+
+    .shop-widget a {
+        width: 100%;
+        background-size: contain;
+        padding: 34px 26px;
+    }
+    .shop-widget .overlay {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .shop-widget {
+        height: 330px;
+        padding-bottom: 40px;
+    }
+
+    .shop-widget a {
+        display: block;
+        width: 650px;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0 auto 40px;
+        padding: 0;
+        color: #111;
+        background-image: url(../images/front-page-box-style/bg-box.jpg);
+        background-repeat: no-repeat;
+        border: 16px solid #206bc8;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .shop-widget .overlay {
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        display: flex;
+        position: relative;
+        top: 0;
+        flex-wrap: wrap;
+    }
+
+    .shop-widget .left-side {
+        width: 100%;
+    }
+
+    .shop-widget .left-side::after {
+        display: none;
+    }
+
+    .shop-widget .left-side span {
+        top: 28px;
+        left: 208px;
+    }
+
+    .shop-widget .right-side {
+        width: 100%;
+    }
+
+    .shop-widget .right-side .text-holder {
+        position: absolute;
+        top: 26px;
+        left: 130px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 750px) {
+    .deal-box-holder > a {
+        width: 100%;
+    }
+    .deal-box-holder .box {
+        width: 100%;
+        margin: 0 0 100px;
+        height: auto;
+        max-width: 100%;
+        min-height: 420px;
+    }
+
+    .deal-box-holder .box .overlay {
+        width: 100%;
+        height: auto;
+        padding-bottom: 120px;
+    }
+
+    .deal-box-holder .box.empty .overlay {
+        padding-bottom: 0;
+    }
+
+    .deal-box-holder .box .siren-icon {
+        width: 70px;
+        height: 70px;
+        left: calc(50% - 35px);
+        top: -55px;
+    }
+
+    .deal-box-holder .box .box-title {
+        font-size: 30px;
+    }
+
+    .deal-box-holder .box .box-title strong {
+        font-size: 50px;
+    }
+
+    .box .img-holder {
+        height: auto;
+    }
+
+    .box .img-holder .sticker {
+        width: 70px;
+        height: 70px;
+        font-size: 23px;
+    }
+
+    .box .old-price {
+        left: 8px;
+        font-size: 20px;
+        top: 14px;
+    }
+
+    .box .deal-price {
+        font-size: 40px;
+    }
+
+    .deal-box-holder .box .product-details {
+        margin-left: 10px;
+    }
+
+    .deal-box-holder .box .company-name {
+        font-size: 16px;
+        padding-right: 20px;
+    }
+
+    .box .countdown-holder {
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box .c-thermometr {
+        right: -36px;
+        bottom: initial;
+        top: -44px;
+        transform: scale(0.7);
+    }
+
+    .shop-widget a {
+        width: 100%;
+    }
+
+    .shop-widget .left-side {
+        background-size: 80px;
+    }
+
+    .shop-widget .left-side span {
+        top: 36px;
+        left: 96px;
+        font-size: 40px;
+    }
+
+    .shop-widget .right-side {
+        background-size: contain;
+        background-position: 4px 0;
+    }
+
+    .shop-widget .right-side .text-holder {
+        top: 8px;
+        left: 60px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .box .countdown-holder > div {
+        transform: scale(0.7)
+    }
+}

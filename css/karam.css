@@ -1,0 +1,176 @@
+/* .shop-grid .grid-item a img {
+    max-width: 226px;
+    height: 372px;
+} */
+
+/* .hero-banner {
+    background-image: url("../images/shop/header_bg.png");
+} */
+
+.shop-grid .grid-item .item-content .yith-wcwl-add-to-wishlist {
+    background-image: none;
+}
+
+.shop-grid .grid-item .item-content .yith-wcwl-wishlistexistsbrowse.show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    margin-right: 0px;
+    margin-top: 0;
+    border-radius: 50%;
+    background-image: url(../images/shop/icon-which.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.shop-grid .grid-item .item-content .yith-wcwl-add-button.show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    margin-right: 0px;
+    margin-top: 0;
+    border-radius: 50%;
+    background-image: url(../images/shop/icon-which.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.shop-grid .grid-item .item-content .yith-wcwl-add-button.show:hover {
+    background-image: url(../images/shop/icon-which.png);
+    background-position: center top;
+}
+
+.shop-grid .grid-item .item-content .yith-wcwl-wishlistexistsbrowse.show a {
+    font-size: 1px;
+    color: transparent;
+    width: 54px;
+    height: 54px;
+    display: block;
+}
+
+.shop-grid .grid-item .item-content .yith-wcwl-wishlistaddedbrowse.show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    margin-right: 0px;
+    margin-top: 0;
+    border-radius: 50%;
+    background-image: url(../images/shop/icon-which.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.shop-grid .grid-item .item-content .yith-wcwl-wishlistaddedbrowse.show .feedback {
+    display: none;
+}
+
+.shop-grid .grid-item .item-content .yith-wcwl-wishlistaddedbrowse.show a {
+    font-size: 1px;
+    color: transparent;
+    width: 54px;
+    height: 54px;
+    display: block;
+}
+
+/*Shop page */
+.product-details-popup footer .action-holder div.yith-wcwl-wishlistexistsbrowse.show {
+    color: #fff;
+    border: none;
+    display: block;
+    margin: 28px auto 18px;
+    height: 54px;
+
+    background-image: url(../images/shop/icon-which.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.product-details-popup footer .action-holder .yith-wcwl-add-button.show {
+    background-color: initial;
+    color: #fff;
+    border: none;
+    display: block;
+    margin: 28px auto 18px;
+    height: 54px;
+    line-height: 54px;
+    background-image: url(../images/shop/icon-which.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.product-details-popup footer .action-holder .yith-wcwl-add-button.show:hover {
+    background-image: url(../images/shop/icon-which.png);
+    background-position: center top;
+}
+
+.product-details-popup footer .action-holder .yith-wcwl-wishlistexistsbrowse.show a {
+    font-size: 1px;
+    color: transparent;
+    width: 54px;
+    margin: 28px auto 18px;
+    height: 54px;
+    line-height: 54px;
+    display: block;
+}
+
+.product-details-popup footer .action-holder .yith-wcwl-wishlistaddedbrowse.show {
+    background-color: initial;
+    color: #fff;
+    border: none;
+    display: block;
+    margin: 28px auto 18px;
+    height: 54px;
+    line-height: 54px;
+    background-image: url(../images/shop/icon-which.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.product-details-popup footer .action-holder .yith-wcwl-wishlistaddedbrowse.show .feedback {
+    display: none;
+}
+
+.product-details-popup footer .action-holder .yith-wcwl-wishlistaddedbrowse.show a {
+    font-size: 1px;
+    color: transparent;
+    width: 54px;
+    margin: 28px auto 18px;
+    height: 54px;
+    line-height: 54px;
+    display: block;
+}
+
+.product-details-popup footer .action-holder .yith-wcwl-add-button.show a {
+    font-size: 1px;
+    color: transparent;
+    width: 54px;
+    margin: 28px auto 18px;
+    height: 54px;
+    line-height: 54px;
+    display: block;
+}
+
+.wallet_price:before {
+    content: "$";
+}
+
+.woocommerce-message .restore-item {
+    display: none;
+}
+
+.wishlist-title h2{
+    text-align: center;
+}
+
+span.price {
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    color: #2773c9;
+}

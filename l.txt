@@ -1,0 +1,12 @@
+footer-shop.php
+header-shop.php
+page-shop-2.php
+page-shop.php
+woocommerce/cart/cart-empty.php
+woocommerce/archive-product.php
+page-new-arrivals.php
+page-all-products.php
+page-trending.php
+page-wallet.php
+page-search.php
+functions.php
